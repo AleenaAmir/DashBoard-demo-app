@@ -1,0 +1,47 @@
+.switch {
+  width: 68%;
+  background-color: #6c2cff;
+  margin-top: 10%;
+  margin-left: 25%;
+  border-radius: 70px;
+  cursor: pointer;
+  position: relative;
+}
+
+.switch.checked {
+  background: #fcf9f9;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 10%;
+  margin-left: 25%;
+  color: #6c2cff;
+}
+
+.slider {
+  width: 119.58px;
+  height: 41.9px;
+  background: linear-gradient(90deg, #8957f3 10.58%, #6c2cff 109.72%);
+  border-radius: 47px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+
+  left: 85px;
+  transition: transform 0.9s ease;
+}
+
+.switch.checked .slider {
+  transform: translateX(30px);
+}
+
+.content {
+  height: 0.5rem;
+  width: 5rem;
+}

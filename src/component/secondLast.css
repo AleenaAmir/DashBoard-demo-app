@@ -1,0 +1,48 @@
+.S-L {
+  height: 13rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 20px;
+
+  margin-left: 12rem;
+}
+
+.S-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.two-h {
+  font-weight: 500;
+  font-size: 28px;
+  padding-top: 3.5rem;
+  padding-left: 1.2rem;
+  line-height: 0.8px;
+
+  color: #000000;
+}
+.two-p {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: px;
+
+  color: #000000;
+}
+.mar {
+  height: 142px;
+  width: 80px;
+  margin-top: 20%;
+  background: #fefcfc;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+}
+.aug {
+  margin-top: 55%;
+  width: 73px;
+  height: 106px;
+  float: right;
+  background: #fefcfc;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+}

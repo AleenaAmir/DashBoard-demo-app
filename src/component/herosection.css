@@ -1,0 +1,20 @@
+.main {
+  position: absolute;
+  width: 87%;
+  height: 800px;
+  left: 150px;
+  top: 32px;
+
+  background: linear-gradient(180deg, #fbfbfb 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 21px;
+}
+.main-1 {
+  position: absolute;
+  width: 228px;
+  height: 780px;
+  left: -50px;
+  top: 50px;
+
+  background: linear-gradient(180deg, #9876e1 0%, rgba(90, 15, 248, 0.79) 100%);
+  border-radius: 36px;
+}
